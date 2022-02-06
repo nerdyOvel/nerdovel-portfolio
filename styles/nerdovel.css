@@ -1,0 +1,86 @@
+body
+{
+    background-color: #030303;
+    color: white;
+}
+
+.index-about
+{
+    padding-top: 6em;
+    padding-left: 6.5em;
+}
+
+.name-line
+{
+    font-weight: 490;
+    margin-bottom: 1em;
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 4s;
+}
+
+.job-role-line
+{
+    font-weight: bolder;
+    font-size: 3.3em;
+    margin: 0px;
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 2s;
+}
+
+.brief-about-line 
+{
+    font-size: medium;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 2s;
+
+}
+
+
+.beneath-role-line
+{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.cheerful
+{
+    margin-bottom: 1.5em;
+}
+
+.link-to-about
+{
+    text-decoration: none;
+    color: #CE730A;
+    font-size: 20px;
+    padding-top: 2em;
+}
+
+.link-to-about:hover
+{
+    text-decoration: none;
+    color: #CE730A;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("../images/portrait-bw-removebg.png");
+  
+    /* Add the blur effect */
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  :root {
+    --animate-duration: 100ms;
+    --animate-delay: 10s;
+  }
